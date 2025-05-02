@@ -1,0 +1,21 @@
+<div class="card m-5 mt-3 ">
+    <div class="card-header bg-primary">
+        Sign in to your account
+    </div>
+    <div class="card-body p-5">
+        <div>
+            <div>Username</div>
+            <input type="text" class="form-control" [(ngModel)]="username">
+        </div>
+        <div class="mt-3">
+            <div>Password</div>
+            <input type="password" class="form-control" [(ngModel)]="password">
+        </div>
+        <div class="mt-3">
+            <button class="btn btn-primary" (click)="signIn()">
+                <i class="fas fa-sign-in-alt me-2"></i>
+                Sign In now
+            </button>
+        </div>
+    </div>
+</div>
